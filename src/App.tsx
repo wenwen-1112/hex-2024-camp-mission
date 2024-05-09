@@ -1,7 +1,9 @@
-// import { useState } from 'react'
+import AllRoutes from '@/routes'
+
+import '@/assets/styles/all.css'
 
 function App() {
-  return <>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, neque?</>
+  return <AllRoutes />
 }
 
 export default App
