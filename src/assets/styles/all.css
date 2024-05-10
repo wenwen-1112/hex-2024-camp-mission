@@ -64,4 +64,55 @@ body * {
 }
 
 
+.footer-bg{
+  background-image: url('../images/footer-bg-lg.png')
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .about p{
+  margin: 24px 0 0 0;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.footer .about p.contact{
+  color: var(--primary-500)
+}
+.footer ul.social-list{
+  margin: 80px 0;
+}
+.footer ul.social-list li {
+  margin: 0 0 24px 0;
+  background: var(--primary-50);
+  border-radius:8px;
+  border: solid 1px var(--primary-400);
+}
+.footer ul.social-list li:last-child {
+  margin: 0;
+}
+.footer ul.social-list li.active {
+  background: var(--primary-900);
+}
+.footer ul.social-list li a{
+  padding: 8px 24px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.footer ul.social-list li a .icon{
+  margin: 0 8px 0 0;
+}
+.footer ul.social-list li a .icon img{
+  display: block
+}
+.footer ul.social-list li a p{
+  font-size: 20px;
+  color: var(--primary-700);
+}
+.footer ul.social-list li.active a p{
+  font-weight: 700;
+  color: var(--primary-50);
+}
 
