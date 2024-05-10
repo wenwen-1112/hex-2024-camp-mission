@@ -1,8 +1,11 @@
 import {Link} from 'react-router-dom'
+
+import Logo from '@/assets/images/logo.svg'
+
 const Header = () => {
   return (
-    <div className="header">
-      <h1><a href=""><img src="" alt="" /></a></h1>
+    <div className="header container">
+      <h1><a href="#"><img src={Logo} alt="logo" /></a></h1>
       <ul className="menu">
         <li><Link to="/">首頁</Link></li>
         <li><Link to="/collection">作品集</Link></li>
